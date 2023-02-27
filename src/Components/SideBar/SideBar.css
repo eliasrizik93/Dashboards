@@ -8,5 +8,50 @@ ul {
   width: 270px;
   min-width: 270px;
   background: #1f2a40 !important;
-  color: #adadad;
+  color: white;
+}
+
+.Header {
+}
+.Header-Menu {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+.Header-Img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.Profile-Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  color: aquamarine;
+  font-family: bold;
+}
+
+.SideBarMenu {
+  padding-top: 30px;
+}
+
+.pro-inner-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+.pro-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+  white-space: nowrap;
+}
+.css-5whnyn-MuiTypography-root {
+  margin-left: 0 !important;
 }
